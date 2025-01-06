@@ -1,0 +1,15 @@
+/* src/assets/styles.css */
+.novels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .novel {
+    width: 200px;
+    text-align: center;
+  }
+  .novel img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
