@@ -8,5 +8,5 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
-  },
+  },base: '/novel-vite/', // 替換為你的儲存庫名稱
 });
