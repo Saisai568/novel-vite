@@ -1,7 +1,6 @@
 <!-- src/pages/HomePage.vue -->
 <template>
     <div>
-      <h1>小說閱讀網站</h1>
       <div class="novels">
         <div v-for="novel in novels" :key="novel.id" class="novel">
           <router-link :to="`/novel/${novel.id}`">
